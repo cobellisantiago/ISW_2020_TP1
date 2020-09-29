@@ -296,17 +296,6 @@ public class controllerBasic {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-//    @GetMapping(path = "/poliza")
-//    public ResponseEntity<Object> getPoliza(@RequestParam String numeroDePoliza) {
-//        Poliza poliza = gestorPoliza.buscar(numeroDePoliza);
-//        System.out.println(poliza.getNumeroDePoliza());
-//        DTOPoliza dtoPoliza = modelMapper.map(poliza, DTOPoliza.class);
-//        if(dtoPoliza!=null) {
-//            return new ResponseEntity<>(dtoPoliza,HttpStatus.OK);
-//        } else {
-//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//        }
-//    }
 
     @GetMapping(path = "/cliente/tiposDocumento")
     @ResponseBody
