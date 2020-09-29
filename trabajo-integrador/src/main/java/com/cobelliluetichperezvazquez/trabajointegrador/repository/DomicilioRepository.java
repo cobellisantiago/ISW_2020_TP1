@@ -12,9 +12,4 @@ public class DomicilioRepository {
          return "give me a fist bump Baymax!";
      }
  }
-
- public void callahan (){
-     return "Revange my daughter with microbots!";
- }
- 
 }
